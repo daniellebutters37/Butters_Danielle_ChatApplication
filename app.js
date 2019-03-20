@@ -10,7 +10,7 @@ const port = process.PORT || 3000;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.sendFile(_dirname + '/views/index.html');
+    res.sendFile(__dirname + '/views/index.html');
 });
 
 http.listen(port, () => {
