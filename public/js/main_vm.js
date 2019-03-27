@@ -1,4 +1,4 @@
-import ChatMessage from './modules/ChatMessage.js';
+import ChatMessage from './modules/chatMessage.js';
 
 const socket = io();
 
