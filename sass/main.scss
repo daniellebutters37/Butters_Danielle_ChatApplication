@@ -89,6 +89,7 @@ textarea {
 	max-width: 800px;
 	margin: 0 auto;
 	margin-bottom: 20px;
+	overflow-y: scroll;
 }
 
 
@@ -102,7 +103,8 @@ textarea {
 	padding: 8px 12px;
 	background-color: $light-blue; 
     border-radius: 8px;
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
+	margin-left: 5px;
     float:left;
     clear: both;
 }
