@@ -14,7 +14,7 @@ This project is create an chat application that is deployed through Heroku. Its 
 * [Heroku](https://www.heroku.com) - Cloud Application Platform
 
 
-**Getting Started**
+**Getting Started**<br />
 Via command line:
 ```
 $npm install
