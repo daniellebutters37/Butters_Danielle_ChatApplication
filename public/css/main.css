@@ -1,6 +1,5 @@
 html {
   background-color: #ffffff;
-  background-image: url("/images/tile_bg.jpg");
 }
 
 p, h1, h2, label {
@@ -82,6 +81,7 @@ textarea {
   max-width: 800px;
   margin: 0 auto;
   margin-bottom: 20px;
+  overflow-y: scroll;
 }
 
 .new-message {
@@ -90,6 +90,7 @@ textarea {
   background-color: #c4d7d1;
   border-radius: 8px;
   margin-bottom: 1rem;
+  margin-left: 5px;
   float: left;
   clear: both;
 }
