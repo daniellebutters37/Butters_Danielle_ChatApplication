@@ -15,8 +15,11 @@ This project is create an chat application that is deployed through Heroku. Its 
 
 
 **Getting Started**
-Adding Dependencies:
+Via command line:
 ```
+$npm install
+
+$npm start
 
 ```
 **Installation**
@@ -26,8 +29,27 @@ Adding Dependencies:
 * Npm
 
 **Code Example**<br />
-Vue example to filter video search:
+Vue with socket.io:
 ```js
+
+const socket = io();
+
+function logConnect({sID, message}) { //{sID, message}
+    console.log(sID, message);
+    vm.socketID = sID;
+}
+
+function appendMessage(message) {
+    vm.messages.push(message);
+}
+
+___________________________________
+
+data: function() {
+    return {
+        matchedID: this.$parent.socketID == this.msg.id
+    }
+}
 
 ```
 
